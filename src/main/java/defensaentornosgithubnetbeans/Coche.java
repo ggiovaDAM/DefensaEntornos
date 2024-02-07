@@ -11,9 +11,21 @@ import java.util.Objects;
  * @author Guido
  */
 public class Coche {
+    /**
+    * Guarda la matrícula del coche
+    */
     private String matricula;
+    /**
+    * Almacena el color del coche
+    */
     private String color;
+    /**
+    * Guarda el modelo del coche
+    */
     private String modelo;
+    /**
+    * Precio de compra
+    */
     private int precio;
 
     public Coche(String matricula, String color, String modelo, int precio) {
